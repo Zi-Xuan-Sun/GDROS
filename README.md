@@ -9,10 +9,6 @@
 <img src="assets/Framework.png">
 
 
-## TODO List
-- [x] Code release (2025-11-20)
-- [x] Models release (2025-11-20)
-
 ## Data Preparation
 To evaluate/train GDROS, you will need to download the required datasets. 
 * [WHU-OPT-SAR dataset](https://pan.baidu.com/s/17dNYVhNObbVjgcY2SmlM-w?pwd=ukpw password: ukpw)
@@ -82,4 +78,5 @@ python test.py
 ```bibtex
 
 ```
+
 
