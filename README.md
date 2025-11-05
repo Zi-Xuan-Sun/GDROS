@@ -46,10 +46,13 @@ You can create symbolic links to wherever the datasets were downloaded in the `d
 
 ## Requirements
 ```shell
-conda create --name gdros
+conda create --name gdros python=3.9.7
 conda activate gdros
-conda install pytorch=2.3.1 torchvision=0.18.1 cuda=12.1 matplotlib tensorboard scipy opencv -c pytorch
-pip install yacs loguru einops timm==0.4.12 imageio
+conda install pytorch=2.3.1 torchvision=0.18.1 pytorch-cuda=12.1 matplotlib tensorboard scipy opencv -c pytorch -c nvidia
+pip install opencv-python==4.8.0.76
+pip install numpy==1.26.4
+pip install timm==0.3.2
+pip install yacs loguru einops imageio
 ```
 
 ## Training
@@ -78,5 +81,6 @@ python test.py
 ```bibtex
 
 ```
+
 
 
